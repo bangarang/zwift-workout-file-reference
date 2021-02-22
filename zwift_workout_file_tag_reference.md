@@ -26,11 +26,17 @@ This is a work in progress. If you know about Zwift workouts, you can help by
   - &lt;<a href="#element-category"><strong><code>category</code></strong></a>&gt;
   - &lt;<a href="#element-categoryIndex"><strong><code>categoryIndex</code></strong></a>&gt;
   - &lt;<a href="#element-description"><strong><code>description</code></strong></a>&gt;
+  - &lt;<a href="#element-durationType"><strong><code>durationType</code></strong></a>&gt;
   - &lt;<a href="#element-entid"><strong><code>entid</code></strong></a>&gt;
+  - &lt;<a href="#element-ftpFemaleOverride"><strong><code>ftpFemaleOverride</code></strong></a>&gt;
+  - &lt;<a href="#element-ftpMaleOverride"><strong><code>ftpMaleOverride</code></strong></a>&gt;
   - &lt;<a href="#element-ftpOverride"><strong><code>ftpOverride</code></strong></a>&gt;
   - &lt;<a href="#element-name"><strong><code>name</code></strong></a>&gt;
+  - &lt;<a href="#element-nameImperial"><strong><code>nameImperial</code></strong></a>&gt;
+  - &lt;<a href="#element-nameMetric"><strong><code>nameMetric</code></strong></a>&gt;
   - &lt;<a href="#element-overrideHash"><strong><code>overrideHash</code></strong></a>&gt;
   - &lt;<a href="#element-painIndex"><strong><code>painIndex</code></strong></a>&gt;
+  - &lt;<a href="#element-setFtpAtPercentage"><strong><code>setFtpAtPercentage</code></strong></a>&gt;
   - &lt;<a href="#element-ShowCP20"><strong><code>ShowCP20</code></strong></a>&gt;
   - &lt;<a href="#element-Skippable"><strong><code>Skippable</code></strong></a>&gt;
   - &lt;<a href="#element-sportType"><strong><code>sportType</code></strong></a>&gt;
@@ -38,35 +44,37 @@ This is a work in progress. If you know about Zwift workouts, you can help by
   - &lt;<a href="#element-tags"><strong><code>tags</code></strong></a>&gt;
     - &lt;<a href="#element-tag"><strong><code>tag</code></strong> <a href="#attribute-name"><code>name</code></a></a>&gt;
   - &lt;<a href="#element-test_details"><strong><code>test_details</code></strong> <a href="#attribute-name"><code>name</code></a> <a href="#attribute-paceid"><code>paceid</code></a> <a href="#attribute-tracking_text_paceid"><code>tracking_text_paceid</code></a> <a href="#attribute-tracking_text_post"><code>tracking_text_post</code></a> <a href="#attribute-tracking_text_pre"><code>tracking_text_pre</code></a></a>&gt;
+  - &lt;<a href="#element-Tutorial"><strong><code>Tutorial</code></strong></a>&gt;
   - &lt;<a href="#element-visibleAfterTime"><strong><code>visibleAfterTime</code></strong></a>&gt;
   - &lt;<a href="#element-visibleOutsidePlan"><strong><code>visibleOutsidePlan</code></strong></a>&gt;
   - &lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt;
-    - &lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-Pace"><code>Pace</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
+    - &lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-EndAtRoadTime"><code>EndAtRoadTime</code></a> <a href="#attribute-Pace"><code>Pace</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
       - &lt;<a href="#element-gameplayevent"><strong><code>gameplayevent</code></strong> <a href="#attribute-camera"><code>camera</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-type"><code>type</code></a></a>&gt;
       - &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-TimeOffset"><code>TimeOffset</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
       - &lt;<a href="#element-TextNotification"><strong><code>TextNotification</code></strong> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-font_size"><code>font_size</code></a> <a href="#attribute-text"><code>text</code></a> <a href="#attribute-timeOffset"><code>timeOffset</code></a> <a href="#attribute-x"><code>x</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
-    - &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-ftptest"><code>ftptest</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></a>&gt;
+    - &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-ftptest"><code>ftptest</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></a>&gt;
       - &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-TimeOffset"><code>TimeOffset</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
     - &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-ftptest"><code>ftptest</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
-    - &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-OffDuration"><code>OffDuration</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-OnDuration"><code>OnDuration</code></a> <a href="#attribute-OnPower"><code>OnPower</code></a> <a href="#attribute-OverUnder"><code>OverUnder</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerOffHigh"><code>PowerOffHigh</code></a> <a href="#attribute-PowerOffLow"><code>PowerOffLow</code></a> <a href="#attribute-PowerOffZone"><code>PowerOffZone</code></a> <a href="#attribute-PowerOnHigh"><code>PowerOnHigh</code></a> <a href="#attribute-PowerOnLow"><code>PowerOnLow</code></a> <a href="#attribute-PowerOnZone"><code>PowerOnZone</code></a> <a href="#attribute-Repeat"><code>Repeat</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+    - &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-OffDuration"><code>OffDuration</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-OnDuration"><code>OnDuration</code></a> <a href="#attribute-OnPower"><code>OnPower</code></a> <a href="#attribute-OverUnder"><code>OverUnder</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerOffHigh"><code>PowerOffHigh</code></a> <a href="#attribute-PowerOffLow"><code>PowerOffLow</code></a> <a href="#attribute-PowerOffZone"><code>PowerOffZone</code></a> <a href="#attribute-PowerOnHigh"><code>PowerOnHigh</code></a> <a href="#attribute-PowerOnLow"><code>PowerOnLow</code></a> <a href="#attribute-PowerOnZone"><code>PowerOnZone</code></a> <a href="#attribute-Repeat"><code>Repeat</code></a> <a href="#attribute-units"><code>units</code></a></a>&gt;
       - &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-TimeOffset"><code>TimeOffset</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
       - &lt;<a href="#element-TextNotification"><strong><code>TextNotification</code></strong> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-font_size"><code>font_size</code></a> <a href="#attribute-text"><code>text</code></a> <a href="#attribute-timeOffset"><code>timeOffset</code></a> <a href="#attribute-x"><code>x</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
     - &lt;<a href="#element-MaxEffort"><strong><code>MaxEffort</code></strong> <a href="#attribute-Duration"><code>Duration</code></a></a>&gt;
-    - &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+    - &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
     - &lt;<a href="#element-RestDay"><strong><code>RestDay</code></strong></a>&gt;
-    - &lt;<a href="#element-run"><strong><code>run</code></strong></a>&gt;
-    - &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-forced_performance_test"><code>forced_performance_test</code></a> <a href="#attribute-NeverFails"><code>NeverFails</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a> <a href="#attribute-Slop"><code>Slop</code></a> <a href="#attribute-Target"><code>Target</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
+    - &lt;<a href="#element-SolidState"><strong><code>SolidState</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-Power"><code>Power</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+    - &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-Forced_Performance_Test"><code>Forced_Performance_Test</code></a> <a href="#attribute-forced_performance_test"><code>forced_performance_test</code></a> <a href="#attribute-NeverFails"><code>NeverFails</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a> <a href="#attribute-Target"><code>Target</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
       - &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-TimeOffset"><code>TimeOffset</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
-    - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
-    - &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-Quantize"><code>Quantize</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+    - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+    - &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong> <a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-Quantize"><code>Quantize</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></a>&gt;
       - &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-TimeOffset"><code>TimeOffset</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a></a>&gt;
-      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
+      - &lt;<a href="#element-textevent"><strong><code>textevent</code></strong> <a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></a>&gt;
   - &lt;<a href="#element-workoutLength"><strong><code>workoutLength</code></strong></a>&gt;
   - &lt;<a href="#element-WorkoutPlan"><strong><code>WorkoutPlan</code></strong></a>&gt;
 
@@ -90,19 +98,24 @@ The workout's activity name will default to this value (instead of the workout n
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="7"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">5</td>
+<td colspan="2">112</td>
 </tr>
-<tr>    <td rowspan="5">Values seen</td>    <td>20.00%</td><td><code>Zwift Academy 2018 Semi-Final Workout #3: Capacity With Tempo</code></td></tr>
-<tr><td>20.00%</td><td><code>Zwift Academy 2018 Workout #8: Lactate Shuttling</code></td></tr>
-<tr><td>20.00%</td><td><code>Zwift Academy 2018 Workout #5: Extensive Anaerobic 1min</code></td></tr>
-<tr><td>20.00%</td><td><code>Zwift Academy 2018 Workout #3: Under Ones</code></td></tr>
-<tr><td>20.00%</td><td><code>Zwift Academy 2018 Workout #10: Capacity Reloaded</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>25.00%</td><td><code>Duurtraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>7.14%</td><td><code>Tempo-duurtraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>6.25%</td><td><code>Bloktraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>4.46%</td><td><code>Explosiviteitstraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>3.57%</td><td><code>Cadanstraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>2.68%</td><td><code>VO₂Max-training - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>2.68%</td><td><code>Krachttraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>1.79%</td><td><code>Sprinttraining - KNWU Fondo Wintertraining</code></td></tr>
+<tr><td>0.89%</td><td><code>Zwift Academy Run: Workout 2 | Intervals and Threshold Training</code></td></tr>
+<tr><td>0.89%</td><td><code>Zwift Academy Run: Workout 6 | Endurance Speed Builds</code></td></tr>
 </table>
 
 ### Element **`<author>`**
@@ -129,18 +142,18 @@ The name of the workout's creator
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">480</td>
+<td colspan="2">1528</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>32.08%</td><td><code>Zwift</code></td></tr>
-<tr><td>23.75%</td><td><code>Kevin Poulton</code></td></tr>
-<tr><td>8.75%</td><td><code>Marco Pinotti</code></td></tr>
-<tr><td>8.75%</td><td><code>QT2</code></td></tr>
-<tr><td>7.29%</td><td><code>trainSharp</code></td></tr>
-<tr><td>5.00%</td><td><code>Shayne Gaffney | GC Coaching</code></td></tr>
-<tr><td>3.54%</td><td><code>GCN</code></td></tr>
-<tr><td>2.71%</td><td><code>Jon Sharples</code></td></tr>
-<tr><td>1.46%</td><td><code>FTP Training</code></td></tr>
-<tr><td>1.25%</td><td><code>Matt Rowe (Rowe and King)</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>35.67%</td><td><code>Zwift</code></td></tr>
+<tr><td>21.86%</td><td><code>Kevin Poulton</code></td></tr>
+<tr><td>5.24%</td><td><code>Zwift by Greg McMillan</code></td></tr>
+<tr><td>3.99%</td><td><code>Marco Pinotti</code></td></tr>
+<tr><td>3.93%</td><td><code>KNWU Fondo</code></td></tr>
+<tr><td>3.93%</td><td><code>QT2</code></td></tr>
+<tr><td>3.14%</td><td><code>Shayne Gaffney | GC Coaching</code></td></tr>
+<tr><td>2.68%</td><td><code>trainSharp</code></td></tr>
+<tr><td>2.23%</td><td><code>Zwift Academy Coaches</code></td></tr>
+<tr><td>2.16%</td><td><code>GCN</code></td></tr>
 </table>
 
 ### Element **`<author_alias>`**
@@ -190,20 +203,21 @@ The name of the workout's creator
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="8"><strong>Inner value</strong></td>
+<td rowspan="9"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">337</td>
+<td colspan="2">454</td>
 </tr>
-<tr>    <td rowspan="6">Values seen</td>    <td>44.21%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</code></td></tr>
-<tr><td>21.36%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</code></td></tr>
-<tr><td>15.73%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</code></td></tr>
-<tr><td>12.46%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</code></td></tr>
-<tr><td>5.04%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</code></td></tr>
-<tr><td>1.19%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</code></td></tr>
+<tr>    <td rowspan="7">Values seen</td>    <td>39.87%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga</code></td></tr>
+<tr><td>20.04%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga</code></td></tr>
+<tr><td>15.20%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga</code></td></tr>
+<tr><td>13.22%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga</code></td></tr>
+<tr><td>7.27%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga</code></td></tr>
+<tr><td>4.19%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga</code></td></tr>
+<tr><td>0.22%</td><td><code>UI/WhiteOrangeTheme/Workout_Select/brands/Powerhouse_Logo.tga</code></td></tr>
 </table>
 
 ### Element **`<category>`**
@@ -230,19 +244,15 @@ level of nesting.
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="7"><strong>Inner value</strong></td>
+<td rowspan="2"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">670</td>
+<td colspan="2">1766</td>
 </tr>
-<tr>    <td rowspan="5">Top values seen</td>    <td>9.70%</td><td><code>Your First Century</code></td></tr>
-<tr><td>9.25%</td><td><code>12wk Winter plan (advanced)</code></td></tr>
-<tr><td>7.01%</td><td><code>2018 PRL100 Prep</code></td></tr>
-<tr><td>6.27%</td><td><code>Olympic Tri Prep Plan</code></td></tr>
-<tr><td>5.67%</td><td><code>10-12wk FTP Builder</code></td></tr>
+
 </table>
 
 #### Usage examples
@@ -282,18 +292,18 @@ level of nesting.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">239</td>
+<td colspan="2">771</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>17.57%</td><td><code>1</code></td></tr>
-<tr><td>17.57%</td><td><code>2</code></td></tr>
-<tr><td>17.57%</td><td><code>4</code></td></tr>
-<tr><td>14.23%</td><td><code>3</code></td></tr>
-<tr><td>12.13%</td><td><code>5</code></td></tr>
-<tr><td>10.46%</td><td><code>6</code></td></tr>
-<tr><td>4.60%</td><td><code>7</code></td></tr>
-<tr><td>0.84%</td><td><code>10</code></td></tr>
-<tr><td>0.84%</td><td><code>12</code></td></tr>
-<tr><td>0.84%</td><td><code>0</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>20.23%</td><td><code>2</code></td></tr>
+<tr><td>18.94%</td><td><code>1</code></td></tr>
+<tr><td>16.73%</td><td><code>4</code></td></tr>
+<tr><td>15.69%</td><td><code>3</code></td></tr>
+<tr><td>12.97%</td><td><code>5</code></td></tr>
+<tr><td>6.49%</td><td><code>6</code></td></tr>
+<tr><td>2.98%</td><td><code>7</code></td></tr>
+<tr><td>1.04%</td><td><code>8</code></td></tr>
+<tr><td>0.65%</td><td><code>9</code></td></tr>
+<tr><td>0.52%</td><td><code>12</code></td></tr>
 </table>
 
 ### Element **`<Cooldown>`**
@@ -303,7 +313,7 @@ level of nesting.
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-Pace"><code>Pace</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-EndAtRoadTime"><code>EndAtRoadTime</code></a> <a href="#attribute-Pace"><code>Pace</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -340,9 +350,38 @@ level of nesting.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">668</td>
+<td colspan="2">1759</td>
 </tr>
 
+</table>
+
+### Element **`<durationType>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">string</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">48</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>time</code></td></tr>
 </table>
 
 ### Element **`<entid>`**
@@ -363,17 +402,18 @@ level of nesting.
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="5"><strong>Inner value</strong></td>
+<td rowspan="6"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">16</td>
+<td colspan="2">137</td>
 </tr>
-<tr>    <td rowspan="3">Values seen</td>    <td>43.75%</td><td><code>150</code></td></tr>
-<tr><td>31.25%</td><td><code>491</code></td></tr>
-<tr><td>25.00%</td><td><code>436</code></td></tr>
+<tr>    <td rowspan="4">Values seen</td>    <td>43.80%</td><td><code>487</code></td></tr>
+<tr><td>35.04%</td><td><code>491</code></td></tr>
+<tr><td>13.87%</td><td><code>436</code></td></tr>
+<tr><td>7.30%</td><td><code>150</code></td></tr>
 </table>
 
 ### Element **`<FreeRide>`**
@@ -383,7 +423,7 @@ level of nesting.
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-ftptest"><code>ftptest</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-ftptest"><code>ftptest</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -416,12 +456,9 @@ level of nesting.
 <tr><td><strong>Inner value</strong></td><td>―</td></tr>
 </table>
 
-### Element **`<ftpOverride>`**
+### Element **`<ftpFemaleOverride>`**
 
-Override the rider's FTP with a fixed value for the workout.
-
-Can be used to create workouts with fixed power intervals.
-
+*Not yet described.*
 
 <table>
 <tr>
@@ -445,7 +482,69 @@ Can be used to create workouts with fixed power intervals.
 <td>Times seen</td>
 <td colspan="2">1</td>
 </tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>100</code></td></tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>130</code></td></tr>
+</table>
+
+### Element **`<ftpMaleOverride>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">integer</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">1</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>200</code></td></tr>
+</table>
+
+### Element **`<ftpOverride>`**
+
+Override the rider's FTP with a fixed value for the workout.
+
+Can be used to create workouts with fixed power intervals.
+
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="4"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">integer</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">4</td>
+</tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>75.00%</td><td><code>100</code></td></tr>
+<tr><td>25.00%</td><td><code>200</code></td></tr>
 </table>
 
 #### Usage examples
@@ -513,7 +612,7 @@ Possible values for [`type`](#attribute-type) seem to be:
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-OffDuration"><code>OffDuration</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-OnDuration"><code>OnDuration</code></a> <a href="#attribute-OnPower"><code>OnPower</code></a> <a href="#attribute-OverUnder"><code>OverUnder</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerOffHigh"><code>PowerOffHigh</code></a> <a href="#attribute-PowerOffLow"><code>PowerOffLow</code></a> <a href="#attribute-PowerOffZone"><code>PowerOffZone</code></a> <a href="#attribute-PowerOnHigh"><code>PowerOnHigh</code></a> <a href="#attribute-PowerOnLow"><code>PowerOnLow</code></a> <a href="#attribute-PowerOnZone"><code>PowerOnZone</code></a> <a href="#attribute-Repeat"><code>Repeat</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-FlatRoad"><code>FlatRoad</code></a> <a href="#attribute-OffDuration"><code>OffDuration</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-OnDuration"><code>OnDuration</code></a> <a href="#attribute-OnPower"><code>OnPower</code></a> <a href="#attribute-OverUnder"><code>OverUnder</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerOffHigh"><code>PowerOffHigh</code></a> <a href="#attribute-PowerOffLow"><code>PowerOffLow</code></a> <a href="#attribute-PowerOffZone"><code>PowerOffZone</code></a> <a href="#attribute-PowerOnHigh"><code>PowerOnHigh</code></a> <a href="#attribute-PowerOnLow"><code>PowerOnLow</code></a> <a href="#attribute-PowerOnZone"><code>PowerOnZone</code></a> <a href="#attribute-Repeat"><code>Repeat</code></a> <a href="#attribute-units"><code>units</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -583,9 +682,75 @@ The name of the workout in the Zwift workout list
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">670</td>
+<td colspan="2">1766</td>
 </tr>
 
+</table>
+
+### Element **`<nameImperial>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="7"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">string</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">114</td>
+</tr>
+<tr>    <td rowspan="5">Top values seen</td>    <td>8.77%</td><td><code>8mi Easy Run #1</code></td></tr>
+<tr><td>8.77%</td><td><code>8mi Easy Run #2</code></td></tr>
+<tr><td>7.89%</td><td><code>Fartlek - 400m/200m</code></td></tr>
+<tr><td>6.14%</td><td><code>8mi Easy Run #3</code></td></tr>
+<tr><td>6.14%</td><td><code>5mi Easy Run #1</code></td></tr>
+</table>
+
+### Element **`<nameMetric>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="7"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">string</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">114</td>
+</tr>
+<tr>    <td rowspan="5">Top values seen</td>    <td>8.77%</td><td><code>13km Easy Run #1</code></td></tr>
+<tr><td>8.77%</td><td><code>13km Easy Run #2</code></td></tr>
+<tr><td>7.89%</td><td><code>Fartlek - 400m/200m</code></td></tr>
+<tr><td>6.14%</td><td><code>13km Easy Run #3</code></td></tr>
+<tr><td>6.14%</td><td><code>8km Easy Run #1</code></td></tr>
 </table>
 
 ### Element **`<overrideHash>`**
@@ -606,18 +771,15 @@ The name of the workout in the Zwift workout list
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="6"><strong>Inner value</strong></td>
+<td rowspan="2"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">4</td>
+<td colspan="2">58</td>
 </tr>
-<tr>    <td rowspan="4">Values seen</td>    <td>25.00%</td><td><code>1606757541</code></td></tr>
-<tr><td>25.00%</td><td><code>1836002659</code></td></tr>
-<tr><td>25.00%</td><td><code>3002003875</code></td></tr>
-<tr><td>25.00%</td><td><code>2573122068</code></td></tr>
+
 </table>
 
 ### Element **`<painIndex>`**
@@ -644,12 +806,12 @@ The name of the workout in the Zwift workout list
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">18</td>
+<td colspan="2">23</td>
 </tr>
-<tr>    <td rowspan="4">Values seen</td>    <td>55.56%</td><td><code>1</code></td></tr>
-<tr><td>22.22%</td><td><code>3</code></td></tr>
-<tr><td>11.11%</td><td><code>5</code></td></tr>
-<tr><td>11.11%</td><td><code>4</code></td></tr>
+<tr>    <td rowspan="4">Values seen</td>    <td>65.22%</td><td><code>1</code></td></tr>
+<tr><td>17.39%</td><td><code>3</code></td></tr>
+<tr><td>8.70%</td><td><code>5</code></td></tr>
+<tr><td>8.70%</td><td><code>4</code></td></tr>
 </table>
 
 ### Element **`<Ramp>`**
@@ -659,7 +821,7 @@ The name of the workout in the Zwift workout list
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -692,7 +854,7 @@ The name of the workout in the Zwift workout list
 <tr><td><strong>Inner value</strong></td><td>―</td></tr>
 </table>
 
-### Element **`<run>`**
+### Element **`<setFtpAtPercentage>`**
 
 *Not yet described.*
 
@@ -707,9 +869,19 @@ The name of the workout in the Zwift workout list
 </tr>
 <tr>
 <td><strong>Contained by</strong></td>
-<td colspan="3">&lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
-<tr><td><strong>Inner value</strong></td><td>―</td></tr>
+<tr>
+<td rowspan="4"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">real</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">3</td>
+</tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>66.67%</td><td><code>0.75</code></td></tr>
+<tr><td>33.33%</td><td><code>0.65</code></td></tr>
 </table>
 
 ### Element **`<ShowCP20>`**
@@ -736,7 +908,7 @@ The name of the workout in the Zwift workout list
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">4</td>
+<td colspan="2">5</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -765,9 +937,29 @@ The name of the workout in the Zwift workout list
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1</td>
+<td colspan="2">4</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>0</code></td></tr>
+</table>
+
+### Element **`<SolidState>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3"><a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-Power"><code>Power</code></a></td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">&lt;<a href="#element-textevent"><strong><code>textevent</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt;</td>
+</tr>
+<tr><td><strong>Inner value</strong></td><td>―</td></tr>
 </table>
 
 ### Element **`<sportType>`**
@@ -788,17 +980,19 @@ The name of the workout in the Zwift workout list
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="5"><strong>Inner value</strong></td>
+<td rowspan="7"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">394</td>
+<td colspan="2">1501</td>
 </tr>
-<tr>    <td rowspan="3">Values seen</td>    <td>67.26%</td><td><code>bike</code></td></tr>
-<tr><td>29.44%</td><td><code>run</code></td></tr>
-<tr><td>3.30%</td><td><code>swim</code></td></tr>
+<tr>    <td rowspan="5">Values seen</td>    <td>61.29%</td><td><code>bike</code></td></tr>
+<tr><td>37.24%</td><td><code>run</code></td></tr>
+<tr><td>1.07%</td><td><code>swim</code></td></tr>
+<tr><td>0.33%</td><td><code>ride</code></td></tr>
+<tr><td>0.07%</td><td><code>Bike</code></td></tr>
 </table>
 
 ### Element **`<SteadyState>`**
@@ -808,7 +1002,7 @@ The name of the workout in the Zwift workout list
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-forced_performance_test"><code>forced_performance_test</code></a> <a href="#attribute-NeverFails"><code>NeverFails</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a> <a href="#attribute-Slop"><code>Slop</code></a> <a href="#attribute-Target"><code>Target</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-FailThresholdDuration"><code>FailThresholdDuration</code></a> <a href="#attribute-Forced_Performance_Test"><code>Forced_Performance_Test</code></a> <a href="#attribute-forced_performance_test"><code>forced_performance_test</code></a> <a href="#attribute-NeverFails"><code>NeverFails</code></a> <a href="#attribute-OffPower"><code>OffPower</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-ramptest"><code>ramptest</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-show_avg"><code>show_avg</code></a> <a href="#attribute-Target"><code>Target</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -841,24 +1035,22 @@ The name of the section under the workout's
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="12"><strong>Inner value</strong></td>
+<td rowspan="10"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">607</td>
+<td colspan="2">1457</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>10.87%</td><td><code>Week 1</code></td></tr>
-<tr><td>10.71%</td><td><code>Week 4</code></td></tr>
-<tr><td>10.71%</td><td><code>Week 3</code></td></tr>
-<tr><td>10.05%</td><td><code>Week 2</code></td></tr>
-<tr><td>8.57%</td><td><code>Week 5</code></td></tr>
-<tr><td>7.91%</td><td><code>Week 6</code></td></tr>
-<tr><td>6.43%</td><td><code>Week 8</code></td></tr>
-<tr><td>6.10%</td><td><code>Week 7</code></td></tr>
-<tr><td>5.44%</td><td><code>Week 9</code></td></tr>
-<tr><td>4.12%</td><td><code>Week 10</code></td></tr>
+<tr>    <td rowspan="8">Top values seen</td>    <td>9.95%</td><td><code>Week 4</code></td></tr>
+<tr><td>9.88%</td><td><code>Week 3</code></td></tr>
+<tr><td>9.75%</td><td><code>Week 2</code></td></tr>
+<tr><td>9.61%</td><td><code>Week 1</code></td></tr>
+<tr><td>8.24%</td><td><code>Week 5</code></td></tr>
+<tr><td>7.89%</td><td><code>Week 6</code></td></tr>
+<tr><td>6.18%</td><td><code>Week 7</code></td></tr>
+<tr><td>5.83%</td><td><code>Week 8</code></td></tr>
 </table>
 
 #### Usage examples
@@ -962,7 +1154,7 @@ The name of the section under the workout's
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></td>
+<td colspan="3"><a href="#attribute-distoffset"><code>distoffset</code></a> <a href="#attribute-duration"><code>duration</code></a> <a href="#attribute-message"><code>message</code></a> <a href="#attribute-mssage"><code>mssage</code></a> <a href="#attribute-textscale"><code>textscale</code></a> <a href="#attribute-timeoffset"><code>timeoffset</code></a> <a href="#attribute-y"><code>y</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -970,7 +1162,7 @@ The name of the section under the workout's
 </tr>
 <tr>
 <td><strong>Contained by</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt; &lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SolidState"><strong><code>SolidState</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt; &lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt;</td>
 </tr>
 <tr><td><strong>Inner value</strong></td><td>―</td></tr>
 </table>
@@ -995,6 +1187,35 @@ Doesn't seem to have any effect.
 <tr><td><strong>Inner value</strong></td><td>―</td></tr>
 </table>
 
+### Element **`<Tutorial>`**
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Attributes</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Inner elements</strong></td>
+<td colspan="3">―</td>
+</tr>
+<tr>
+<td><strong>Contained by</strong></td>
+<td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">integer</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">1</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
+</table>
+
 ### Element **`<visibleAfterTime>`**
 
 *Not yet described.*
@@ -1013,20 +1234,24 @@ Doesn't seem to have any effect.
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="8"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">14</td>
+<td colspan="2">102</td>
 </tr>
-<tr>    <td rowspan="6">Values seen</td>    <td>28.57%</td><td><code>1533538860</code></td></tr>
-<tr><td>21.43%</td><td><code>1555632060</code></td></tr>
-<tr><td>14.29%</td><td><code>1504222780</code></td></tr>
-<tr><td>14.29%</td><td><code>1508716801</code></td></tr>
-<tr><td>14.29%</td><td><code>1553472000</code></td></tr>
-<tr><td>7.14%</td><td><code>1539586800</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>9.80%</td><td><code>1533538860</code></td></tr>
+<tr><td>9.80%</td><td><code>1603929600</code></td></tr>
+<tr><td>9.80%</td><td><code>1573459200</code></td></tr>
+<tr><td>7.84%</td><td><code>1602720000</code></td></tr>
+<tr><td>7.84%</td><td><code>1504222780</code></td></tr>
+<tr><td>7.84%</td><td><code>1601510400</code></td></tr>
+<tr><td>7.84%</td><td><code>1564963200</code></td></tr>
+<tr><td>6.86%</td><td><code>1555632060</code></td></tr>
+<tr><td>6.86%</td><td><code>1560470400</code></td></tr>
+<tr><td>6.86%</td><td><code>1553472000</code></td></tr>
 </table>
 
 ### Element **`<visibleOutsidePlan>`**
@@ -1053,7 +1278,7 @@ Doesn't seem to have any effect.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">155</td>
+<td colspan="2">728</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>0</code></td></tr>
 </table>
@@ -1065,7 +1290,7 @@ Doesn't seem to have any effect.
 <table>
 <tr>
 <td><strong>Attributes</strong></td>
-<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-Quantize"><code>Quantize</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
+<td colspan="3"><a href="#attribute-Cadence"><code>Cadence</code></a> <a href="#attribute-CadenceHigh"><code>CadenceHigh</code></a> <a href="#attribute-CadenceLow"><code>CadenceLow</code></a> <a href="#attribute-CadenceResting"><code>CadenceResting</code></a> <a href="#attribute-Duration"><code>Duration</code></a> <a href="#attribute-pace"><code>pace</code></a> <a href="#attribute-Power"><code>Power</code></a> <a href="#attribute-PowerHigh"><code>PowerHigh</code></a> <a href="#attribute-PowerLow"><code>PowerLow</code></a> <a href="#attribute-Quantize"><code>Quantize</code></a> <a href="#attribute-replacement_prescription"><code>replacement_prescription</code></a> <a href="#attribute-replacement_verb"><code>replacement_verb</code></a> <a href="#attribute-Text"><code>Text</code></a> <a href="#attribute-units"><code>units</code></a> <a href="#attribute-Zone"><code>Zone</code></a></td>
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
@@ -1089,7 +1314,7 @@ Doesn't seem to have any effect.
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-MaxEffort"><strong><code>MaxEffort</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-RestDay"><strong><code>RestDay</code></strong></a>&gt; &lt;<a href="#element-run"><strong><code>run</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-textevent"><strong><code>textevent</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-MaxEffort"><strong><code>MaxEffort</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-RestDay"><strong><code>RestDay</code></strong></a>&gt; &lt;<a href="#element-SolidState"><strong><code>SolidState</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-textevent"><strong><code>textevent</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td><strong>Contained by</strong></td>
@@ -1109,7 +1334,7 @@ The root element of a Zwift workout file.
 </tr>
 <tr>
 <td><strong>Inner elements</strong></td>
-<td colspan="3">&lt;<a href="#element-activitySaveName"><strong><code>activitySaveName</code></strong></a>&gt; &lt;<a href="#element-author"><strong><code>author</code></strong></a>&gt; &lt;<a href="#element-author_alias"><strong><code>author_alias</code></strong></a>&gt; &lt;<a href="#element-authorIcon"><strong><code>authorIcon</code></strong></a>&gt; &lt;<a href="#element-category"><strong><code>category</code></strong></a>&gt; &lt;<a href="#element-categoryIndex"><strong><code>categoryIndex</code></strong></a>&gt; &lt;<a href="#element-description"><strong><code>description</code></strong></a>&gt; &lt;<a href="#element-entid"><strong><code>entid</code></strong></a>&gt; &lt;<a href="#element-ftpOverride"><strong><code>ftpOverride</code></strong></a>&gt; &lt;<a href="#element-name"><strong><code>name</code></strong></a>&gt; &lt;<a href="#element-overrideHash"><strong><code>overrideHash</code></strong></a>&gt; &lt;<a href="#element-painIndex"><strong><code>painIndex</code></strong></a>&gt; &lt;<a href="#element-ShowCP20"><strong><code>ShowCP20</code></strong></a>&gt; &lt;<a href="#element-Skippable"><strong><code>Skippable</code></strong></a>&gt; &lt;<a href="#element-sportType"><strong><code>sportType</code></strong></a>&gt; &lt;<a href="#element-subcategory"><strong><code>subcategory</code></strong></a>&gt; &lt;<a href="#element-tags"><strong><code>tags</code></strong></a>&gt; &lt;<a href="#element-test_details"><strong><code>test_details</code></strong></a>&gt; &lt;<a href="#element-visibleAfterTime"><strong><code>visibleAfterTime</code></strong></a>&gt; &lt;<a href="#element-visibleOutsidePlan"><strong><code>visibleOutsidePlan</code></strong></a>&gt; &lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt; &lt;<a href="#element-workoutLength"><strong><code>workoutLength</code></strong></a>&gt; &lt;<a href="#element-WorkoutPlan"><strong><code>WorkoutPlan</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-activitySaveName"><strong><code>activitySaveName</code></strong></a>&gt; &lt;<a href="#element-author"><strong><code>author</code></strong></a>&gt; &lt;<a href="#element-author_alias"><strong><code>author_alias</code></strong></a>&gt; &lt;<a href="#element-authorIcon"><strong><code>authorIcon</code></strong></a>&gt; &lt;<a href="#element-category"><strong><code>category</code></strong></a>&gt; &lt;<a href="#element-categoryIndex"><strong><code>categoryIndex</code></strong></a>&gt; &lt;<a href="#element-description"><strong><code>description</code></strong></a>&gt; &lt;<a href="#element-durationType"><strong><code>durationType</code></strong></a>&gt; &lt;<a href="#element-entid"><strong><code>entid</code></strong></a>&gt; &lt;<a href="#element-ftpFemaleOverride"><strong><code>ftpFemaleOverride</code></strong></a>&gt; &lt;<a href="#element-ftpMaleOverride"><strong><code>ftpMaleOverride</code></strong></a>&gt; &lt;<a href="#element-ftpOverride"><strong><code>ftpOverride</code></strong></a>&gt; &lt;<a href="#element-name"><strong><code>name</code></strong></a>&gt; &lt;<a href="#element-nameImperial"><strong><code>nameImperial</code></strong></a>&gt; &lt;<a href="#element-nameMetric"><strong><code>nameMetric</code></strong></a>&gt; &lt;<a href="#element-overrideHash"><strong><code>overrideHash</code></strong></a>&gt; &lt;<a href="#element-painIndex"><strong><code>painIndex</code></strong></a>&gt; &lt;<a href="#element-setFtpAtPercentage"><strong><code>setFtpAtPercentage</code></strong></a>&gt; &lt;<a href="#element-ShowCP20"><strong><code>ShowCP20</code></strong></a>&gt; &lt;<a href="#element-Skippable"><strong><code>Skippable</code></strong></a>&gt; &lt;<a href="#element-sportType"><strong><code>sportType</code></strong></a>&gt; &lt;<a href="#element-subcategory"><strong><code>subcategory</code></strong></a>&gt; &lt;<a href="#element-tags"><strong><code>tags</code></strong></a>&gt; &lt;<a href="#element-test_details"><strong><code>test_details</code></strong></a>&gt; &lt;<a href="#element-Tutorial"><strong><code>Tutorial</code></strong></a>&gt; &lt;<a href="#element-visibleAfterTime"><strong><code>visibleAfterTime</code></strong></a>&gt; &lt;<a href="#element-visibleOutsidePlan"><strong><code>visibleOutsidePlan</code></strong></a>&gt; &lt;<a href="#element-workout"><strong><code>workout</code></strong></a>&gt; &lt;<a href="#element-workoutLength"><strong><code>workoutLength</code></strong></a>&gt; &lt;<a href="#element-WorkoutPlan"><strong><code>WorkoutPlan</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td><strong>Contained by</strong></td>
@@ -1136,23 +1361,24 @@ The root element of a Zwift workout file.
 <td colspan="3">&lt;<a href="#element-workout_file"><strong><code>workout_file</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="11"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">26</td>
+<td colspan="2">34</td>
 </tr>
-<tr>    <td rowspan="9">Values seen</td>    <td>50.00%</td><td><code>1800</code></td></tr>
-<tr><td>15.38%</td><td><code>600</code></td></tr>
-<tr><td>11.54%</td><td><code>1900</code></td></tr>
-<tr><td>3.85%</td><td><code>2500</code></td></tr>
-<tr><td>3.85%</td><td><code>1200</code></td></tr>
-<tr><td>3.85%</td><td><code>2100</code></td></tr>
-<tr><td>3.85%</td><td><code>3600</code></td></tr>
-<tr><td>3.85%</td><td><code>3000</code></td></tr>
-<tr><td>3.85%</td><td><code>2700</code></td></tr>
+<tr>    <td rowspan="10">Values seen</td>    <td>47.06%</td><td><code>1800</code></td></tr>
+<tr><td>14.71%</td><td><code>1900</code></td></tr>
+<tr><td>11.76%</td><td><code>600</code></td></tr>
+<tr><td>5.88%</td><td><code>2500</code></td></tr>
+<tr><td>5.88%</td><td><code>1200</code></td></tr>
+<tr><td>2.94%</td><td><code>2100</code></td></tr>
+<tr><td>2.94%</td><td><code>2700</code></td></tr>
+<tr><td>2.94%</td><td><code>2200</code></td></tr>
+<tr><td>2.94%</td><td><code>3000</code></td></tr>
+<tr><td>2.94%</td><td><code>3600</code></td></tr>
 </table>
 
 ### Element **`<WorkoutPlan>`**
@@ -1179,7 +1405,7 @@ The root element of a Zwift workout file.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">415</td>
+<td colspan="2">756</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -1203,18 +1429,18 @@ The root element of a Zwift workout file.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1089</td>
+<td colspan="2">3954</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>23.23%</td><td><code>85</code></td></tr>
-<tr><td>18.00%</td><td><code>90</code></td></tr>
-<tr><td>12.03%</td><td><code>95</code></td></tr>
-<tr><td>11.48%</td><td><code>100</code></td></tr>
-<tr><td>9.37%</td><td><code>110</code></td></tr>
-<tr><td>5.23%</td><td><code>105</code></td></tr>
-<tr><td>4.96%</td><td><code>80</code></td></tr>
-<tr><td>3.31%</td><td><code>75</code></td></tr>
-<tr><td>3.12%</td><td><code>70</code></td></tr>
-<tr><td>2.75%</td><td><code>60</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>29.24%</td><td><code>85</code></td></tr>
+<tr><td>15.38%</td><td><code>90</code></td></tr>
+<tr><td>10.14%</td><td><code>100</code></td></tr>
+<tr><td>9.33%</td><td><code>95</code></td></tr>
+<tr><td>8.57%</td><td><code>110</code></td></tr>
+<tr><td>5.29%</td><td><code>105</code></td></tr>
+<tr><td>4.43%</td><td><code>65</code></td></tr>
+<tr><td>4.10%</td><td><code>80</code></td></tr>
+<tr><td>3.92%</td><td><code>75</code></td></tr>
+<tr><td>2.98%</td><td><code>70</code></td></tr>
 </table>
 
 
@@ -1225,22 +1451,24 @@ The root element of a Zwift workout file.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="7"><strong>Inner value</strong></td>
+<td rowspan="9"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">57</td>
+<td colspan="2">153</td>
 </tr>
-<tr>    <td rowspan="5">Values seen</td>    <td>52.63%</td><td><code>100</code></td></tr>
-<tr><td>35.09%</td><td><code>105</code></td></tr>
-<tr><td>8.77%</td><td><code>75</code></td></tr>
-<tr><td>1.75%</td><td><code>140</code></td></tr>
-<tr><td>1.75%</td><td><code>130</code></td></tr>
+<tr>    <td rowspan="7">Values seen</td>    <td>75.16%</td><td><code>100</code></td></tr>
+<tr><td>16.34%</td><td><code>105</code></td></tr>
+<tr><td>3.27%</td><td><code>75</code></td></tr>
+<tr><td>1.96%</td><td><code>95</code></td></tr>
+<tr><td>1.96%</td><td><code>115</code></td></tr>
+<tr><td>0.65%</td><td><code>140</code></td></tr>
+<tr><td>0.65%</td><td><code>130</code></td></tr>
 </table>
 
 
@@ -1251,23 +1479,24 @@ The root element of a Zwift workout file.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="8"><strong>Inner value</strong></td>
+<td rowspan="9"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">57</td>
+<td colspan="2">153</td>
 </tr>
-<tr>    <td rowspan="6">Values seen</td>    <td>49.12%</td><td><code>70</code></td></tr>
-<tr><td>35.09%</td><td><code>85</code></td></tr>
-<tr><td>8.77%</td><td><code>60</code></td></tr>
-<tr><td>3.51%</td><td><code>80</code></td></tr>
-<tr><td>1.75%</td><td><code>100</code></td></tr>
-<tr><td>1.75%</td><td><code>110</code></td></tr>
+<tr>    <td rowspan="7">Values seen</td>    <td>43.79%</td><td><code>70</code></td></tr>
+<tr><td>33.33%</td><td><code>80</code></td></tr>
+<tr><td>14.38%</td><td><code>85</code></td></tr>
+<tr><td>3.27%</td><td><code>60</code></td></tr>
+<tr><td>2.61%</td><td><code>100</code></td></tr>
+<tr><td>1.96%</td><td><code>90</code></td></tr>
+<tr><td>0.65%</td><td><code>110</code></td></tr>
 </table>
 
 
@@ -1278,7 +1507,7 @@ The root element of a Zwift workout file.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="12"><strong>Inner value</strong></td>
@@ -1287,18 +1516,18 @@ The root element of a Zwift workout file.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">198</td>
+<td colspan="2">722</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>30.30%</td><td><code>80</code></td></tr>
-<tr><td>28.28%</td><td><code>85</code></td></tr>
-<tr><td>20.20%</td><td><code>90</code></td></tr>
-<tr><td>5.56%</td><td><code>95</code></td></tr>
-<tr><td>4.04%</td><td><code>65</code></td></tr>
-<tr><td>2.53%</td><td><code>100</code></td></tr>
-<tr><td>2.02%</td><td><code>70</code></td></tr>
-<tr><td>2.02%</td><td><code>110</code></td></tr>
-<tr><td>1.52%</td><td><code>60</code></td></tr>
-<tr><td>1.52%</td><td><code>105</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>35.60%</td><td><code>85</code></td></tr>
+<tr><td>16.20%</td><td><code>80</code></td></tr>
+<tr><td>16.07%</td><td><code>90</code></td></tr>
+<tr><td>11.36%</td><td><code>75</code></td></tr>
+<tr><td>4.43%</td><td><code>65</code></td></tr>
+<tr><td>4.16%</td><td><code>100</code></td></tr>
+<tr><td>4.16%</td><td><code>95</code></td></tr>
+<tr><td>3.05%</td><td><code>70</code></td></tr>
+<tr><td>1.80%</td><td><code>60</code></td></tr>
+<tr><td>1.11%</td><td><code>105</code></td></tr>
 </table>
 
 
@@ -1315,15 +1544,17 @@ value appears to correspond to the numeric camera shortcut keys.
 <td colspan="3">&lt;<a href="#element-gameplayevent"><strong><code>gameplayevent</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Inner value</strong></td>
+<td rowspan="5"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1</td>
+<td colspan="2">6</td>
 </tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>4</code></td></tr>
+<tr>    <td rowspan="3">Values seen</td>    <td>50.00%</td><td><code>1</code></td></tr>
+<tr><td>33.33%</td><td><code>7</code></td></tr>
+<tr><td>16.67%</td><td><code>4</code></td></tr>
 </table>
 
 
@@ -1337,18 +1568,24 @@ value appears to correspond to the numeric camera shortcut keys.
 <td colspan="3">&lt;<a href="#element-textevent"><strong><code>textevent</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="6"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
-<td colspan="2">integer</td>
+<td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">687</td>
+<td colspan="2">6979</td>
 </tr>
-<tr>    <td rowspan="4">Top values seen</td>    <td>8.88%</td><td><code>0</code></td></tr>
-<tr><td>7.42%</td><td><code>400</code></td></tr>
-<tr><td>7.28%</td><td><code>100</code></td></tr>
-<tr><td>6.99%</td><td><code>200</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>16.19%</td><td><code>0</code></td></tr>
+<tr><td>6.25%</td><td><code>400</code></td></tr>
+<tr><td>5.46%</td><td><code>200</code></td></tr>
+<tr><td>5.16%</td><td><code>800</code></td></tr>
+<tr><td>4.93%</td><td><code>100</code></td></tr>
+<tr><td>4.01%</td><td><code>50</code></td></tr>
+<tr><td>3.98%</td><td><code>1600</code></td></tr>
+<tr><td>2.91%</td><td><code>300</code></td></tr>
+<tr><td>2.64%</td><td><code>1200</code></td></tr>
+<tr><td>2.61%</td><td><code>2400</code></td></tr>
 </table>
 
 
@@ -1359,7 +1596,7 @@ value appears to correspond to the numeric camera shortcut keys.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-MaxEffort"><strong><code>MaxEffort</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-MaxEffort"><strong><code>MaxEffort</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SolidState"><strong><code>SolidState</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-TextEvent"><strong><code>TextEvent</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="12"><strong>Inner value</strong></td>
@@ -1368,18 +1605,18 @@ value appears to correspond to the numeric camera shortcut keys.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">5971</td>
+<td colspan="2">17615</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>17.20%</td><td><code>60</code></td></tr>
-<tr><td>12.38%</td><td><code>300</code></td></tr>
-<tr><td>11.57%</td><td><code>120</code></td></tr>
-<tr><td>10.50%</td><td><code>180</code></td></tr>
-<tr><td>8.17%</td><td><code>600</code></td></tr>
-<tr><td>5.11%</td><td><code>30</code></td></tr>
-<tr><td>2.71%</td><td><code>900</code></td></tr>
-<tr><td>2.68%</td><td><code>240</code></td></tr>
-<tr><td>2.19%</td><td><code>90</code></td></tr>
-<tr><td>1.94%</td><td><code>360</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>15.83%</td><td><code>60</code></td></tr>
+<tr><td>11.75%</td><td><code>300</code></td></tr>
+<tr><td>10.63%</td><td><code>180</code></td></tr>
+<tr><td>10.62%</td><td><code>120</code></td></tr>
+<tr><td>6.29%</td><td><code>30</code></td></tr>
+<tr><td>5.16%</td><td><code>600</code></td></tr>
+<tr><td>3.60%</td><td><code>240</code></td></tr>
+<tr><td>3.47%</td><td><code>400</code></td></tr>
+<tr><td>2.66%</td><td><code>800</code></td></tr>
+<tr><td>2.24%</td><td><code>20</code></td></tr>
 </table>
 
 
@@ -1399,15 +1636,37 @@ value appears to correspond to the numeric camera shortcut keys.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">90</td>
+<td colspan="2">146</td>
 </tr>
-<tr>    <td rowspan="7">Values seen</td>    <td>65.56%</td><td><code>10</code></td></tr>
-<tr><td>17.78%</td><td><code>20</code></td></tr>
-<tr><td>7.78%</td><td><code>19</code></td></tr>
-<tr><td>4.44%</td><td><code>30</code></td></tr>
-<tr><td>2.22%</td><td><code>1000</code></td></tr>
-<tr><td>1.11%</td><td><code>5</code></td></tr>
-<tr><td>1.11%</td><td><code>60</code></td></tr>
+<tr>    <td rowspan="7">Values seen</td>    <td>48.63%</td><td><code>10</code></td></tr>
+<tr><td>30.82%</td><td><code>20</code></td></tr>
+<tr><td>6.85%</td><td><code>1000</code></td></tr>
+<tr><td>6.85%</td><td><code>30</code></td></tr>
+<tr><td>5.48%</td><td><code>19</code></td></tr>
+<tr><td>0.68%</td><td><code>5</code></td></tr>
+<tr><td>0.68%</td><td><code>60</code></td></tr>
+</table>
+
+
+### Attribute `EndAtRoadTime="…"`
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Occurs on</strong></td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">real</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">1</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>0.5296</code></td></tr>
 </table>
 
 
@@ -1418,18 +1677,19 @@ value appears to correspond to the numeric camera shortcut keys.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Inner value</strong></td>
+<td rowspan="4"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">28</td>
+<td colspan="2">67</td>
 </tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>15</code></td></tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>92.54%</td><td><code>15</code></td></tr>
+<tr><td>7.46%</td><td><code>10</code></td></tr>
 </table>
 
 
@@ -1443,16 +1703,17 @@ value appears to correspond to the numeric camera shortcut keys.
 <td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Freeride"><strong><code>Freeride</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="4"><strong>Inner value</strong></td>
+<td rowspan="5"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">123</td>
+<td colspan="2">323</td>
 </tr>
-<tr>    <td rowspan="2">Values seen</td>    <td>55.28%</td><td><code>1</code></td></tr>
-<tr><td>44.72%</td><td><code>0</code></td></tr>
+<tr>    <td rowspan="3">Values seen</td>    <td>58.20%</td><td><code>1</code></td></tr>
+<tr><td>41.49%</td><td><code>0</code></td></tr>
+<tr><td>0.31%</td><td><code>255</code></td></tr>
 </table>
 
 
@@ -1478,6 +1739,28 @@ value appears to correspond to the numeric camera shortcut keys.
 </table>
 
 
+### Attribute `Forced_Performance_Test="…"`
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Occurs on</strong></td>
+<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">integer</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">1</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
+</table>
+
+
 ### Attribute `forced_performance_test="…"`
 
 *Not yet described.*
@@ -1494,7 +1777,7 @@ value appears to correspond to the numeric camera shortcut keys.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">3</td>
+<td colspan="2">16</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -1516,7 +1799,7 @@ value appears to correspond to the numeric camera shortcut keys.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">7</td>
+<td colspan="2">11</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -1538,9 +1821,31 @@ value appears to correspond to the numeric camera shortcut keys.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">7379</td>
+<td colspan="2">44668</td>
 </tr>
 
+</table>
+
+
+### Attribute `mssage="…"`
+
+*Not yet described.*
+
+<table>
+<tr>
+<td><strong>Occurs on</strong></td>
+<td colspan="3">&lt;<a href="#element-textevent"><strong><code>textevent</code></strong></a>&gt;</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inner value</strong></td>
+<td>Data type</td>
+<td colspan="2">string</td>
+</tr>
+<tr>
+<td>Times seen</td>
+<td colspan="2">1</td>
+</tr>
+<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>As always though, a great workout starts off with a good warm up - It&#x27;s time to Level Up. Are you ready?</code></td></tr>
 </table>
 
 
@@ -1560,18 +1865,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">149</td>
+<td colspan="2">345</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>36.24%</td><td><code>INTERVALS</code></td></tr>
-<tr><td>14.09%</td><td><code>PRL</code></td></tr>
-<tr><td>13.42%</td><td><code>4weekftp</code></td></tr>
-<tr><td>8.05%</td><td><code>fondo</code></td></tr>
-<tr><td>4.70%</td><td><code>FTP</code></td></tr>
-<tr><td>4.03%</td><td><code>Endurance</code></td></tr>
-<tr><td>3.36%</td><td><code>Zwift Academy</code></td></tr>
-<tr><td>2.68%</td><td><code>Strength</code></td></tr>
-<tr><td>2.01%</td><td><code>Sprint</code></td></tr>
-<tr><td>1.34%</td><td><code>intro</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>32.17%</td><td><code>INTERVALS</code></td></tr>
+<tr><td>12.17%</td><td><code>4weekftp</code></td></tr>
+<tr><td>9.86%</td><td><code>Zwift Academy</code></td></tr>
+<tr><td>7.54%</td><td><code>PRL</code></td></tr>
+<tr><td>3.77%</td><td><code>fondo</code></td></tr>
+<tr><td>3.48%</td><td><code>Prenatal</code></td></tr>
+<tr><td>3.19%</td><td><code>FTP</code></td></tr>
+<tr><td>2.90%</td><td><code>ZA TRI</code></td></tr>
+<tr><td>2.90%</td><td><code>ZATRI2019</code></td></tr>
+<tr><td>2.61%</td><td><code>Endurance</code></td></tr>
 </table>
 
 
@@ -1591,7 +1896,7 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">155</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -1613,18 +1918,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">501</td>
+<td colspan="2">1687</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>25.15%</td><td><code>60</code></td></tr>
-<tr><td>17.37%</td><td><code>30</code></td></tr>
-<tr><td>8.38%</td><td><code>300</code></td></tr>
-<tr><td>7.78%</td><td><code>180</code></td></tr>
-<tr><td>7.58%</td><td><code>120</code></td></tr>
-<tr><td>4.99%</td><td><code>40</code></td></tr>
-<tr><td>4.79%</td><td><code>50</code></td></tr>
-<tr><td>3.79%</td><td><code>15</code></td></tr>
-<tr><td>3.59%</td><td><code>20</code></td></tr>
-<tr><td>2.20%</td><td><code>210</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>24.90%</td><td><code>60</code></td></tr>
+<tr><td>18.49%</td><td><code>30</code></td></tr>
+<tr><td>8.54%</td><td><code>120</code></td></tr>
+<tr><td>5.81%</td><td><code>180</code></td></tr>
+<tr><td>5.16%</td><td><code>300</code></td></tr>
+<tr><td>4.86%</td><td><code>50</code></td></tr>
+<tr><td>3.62%</td><td><code>400</code></td></tr>
+<tr><td>3.20%</td><td><code>20</code></td></tr>
+<tr><td>2.96%</td><td><code>45</code></td></tr>
+<tr><td>2.67%</td><td><code>40</code></td></tr>
 </table>
 
 
@@ -1635,7 +1940,7 @@ The name of the workout in the Zwift workout menu
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="12"><strong>Inner value</strong></td>
@@ -1644,18 +1949,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">416</td>
+<td colspan="2">1584</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>18.51%</td><td><code>0.5</code></td></tr>
-<tr><td>12.26%</td><td><code>0.50449997</code></td></tr>
-<tr><td>5.77%</td><td><code>0.50450003</code></td></tr>
-<tr><td>4.81%</td><td><code>.5</code></td></tr>
-<tr><td>4.09%</td><td><code>0.75</code></td></tr>
-<tr><td>3.85%</td><td><code>0.72</code></td></tr>
-<tr><td>3.61%</td><td><code>0.55</code></td></tr>
-<tr><td>3.12%</td><td><code>0.55449998</code></td></tr>
-<tr><td>2.88%</td><td><code>.81</code></td></tr>
-<tr><td>2.40%</td><td><code>0.87</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>15.59%</td><td><code>0.5</code></td></tr>
+<tr><td>12.75%</td><td><code>0.55</code></td></tr>
+<tr><td>7.45%</td><td><code>0.50449997</code></td></tr>
+<tr><td>5.30%</td><td><code>0.65</code></td></tr>
+<tr><td>4.17%</td><td><code>0.7</code></td></tr>
+<tr><td>3.91%</td><td><code>0.75</code></td></tr>
+<tr><td>2.84%</td><td><code>0.9</code></td></tr>
+<tr><td>2.40%</td><td><code>0.85</code></td></tr>
+<tr><td>1.89%</td><td><code>.5</code></td></tr>
+<tr><td>1.83%</td><td><code>0.50450003</code></td></tr>
 </table>
 
 
@@ -1675,18 +1980,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">501</td>
+<td colspan="2">1687</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>23.15%</td><td><code>60</code></td></tr>
-<tr><td>19.56%</td><td><code>30</code></td></tr>
-<tr><td>8.58%</td><td><code>300</code></td></tr>
-<tr><td>8.18%</td><td><code>10</code></td></tr>
-<tr><td>6.39%</td><td><code>120</code></td></tr>
-<tr><td>5.79%</td><td><code>20</code></td></tr>
-<tr><td>5.59%</td><td><code>15</code></td></tr>
-<tr><td>3.39%</td><td><code>180</code></td></tr>
-<tr><td>2.99%</td><td><code>40</code></td></tr>
-<tr><td>2.00%</td><td><code>240</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>21.99%</td><td><code>60</code></td></tr>
+<tr><td>19.92%</td><td><code>30</code></td></tr>
+<tr><td>7.47%</td><td><code>120</code></td></tr>
+<tr><td>7.47%</td><td><code>10</code></td></tr>
+<tr><td>5.69%</td><td><code>15</code></td></tr>
+<tr><td>5.04%</td><td><code>300</code></td></tr>
+<tr><td>4.56%</td><td><code>180</code></td></tr>
+<tr><td>4.27%</td><td><code>20</code></td></tr>
+<tr><td>2.96%</td><td><code>800</code></td></tr>
+<tr><td>2.61%</td><td><code>40</code></td></tr>
 </table>
 
 
@@ -1700,15 +2005,16 @@ The name of the workout in the Zwift workout menu
 <td colspan="3">&lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Inner value</strong></td>
+<td rowspan="4"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">416</td>
+<td colspan="2">1582</td>
 </tr>
-<tr>    <td rowspan="1">Top values seen</td>    <td>5.29%</td><td><code>1.15</code></td></tr>
+<tr>    <td rowspan="2">Top values seen</td>    <td>5.44%</td><td><code>1.05</code></td></tr>
+<tr><td>5.12%</td><td><code>1.2</code></td></tr>
 </table>
 
 
@@ -1728,7 +2034,7 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">82</td>
+<td colspan="2">115</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -1766,22 +2072,24 @@ The name of the workout in the Zwift workout menu
 <td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="10"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1667</td>
+<td colspan="2">7209</td>
 </tr>
-<tr>    <td rowspan="8">Values seen</td>    <td>59.99%</td><td><code>0</code></td></tr>
-<tr><td>11.22%</td><td><code>1</code></td></tr>
-<tr><td>7.98%</td><td><code>3</code></td></tr>
-<tr><td>7.62%</td><td><code>8268</code></td></tr>
-<tr><td>7.26%</td><td><code>2</code></td></tr>
-<tr><td>3.18%</td><td><code>-1307163960</code></td></tr>
-<tr><td>1.92%</td><td><code>189</code></td></tr>
-<tr><td>0.84%</td><td><code>32766</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>43.39%</td><td><code>0</code></td></tr>
+<tr><td>22.26%</td><td><code>2</code></td></tr>
+<tr><td>10.75%</td><td><code>1</code></td></tr>
+<tr><td>8.16%</td><td><code>3</code></td></tr>
+<tr><td>5.05%</td><td><code>8268</code></td></tr>
+<tr><td>2.46%</td><td><code>-256</code></td></tr>
+<tr><td>2.14%</td><td><code></code></td></tr>
+<tr><td>2.12%</td><td><code>1481003871</code></td></tr>
+<tr><td>1.80%</td><td><code>-1307163960</code></td></tr>
+<tr><td>1.26%</td><td><code>189</code></td></tr>
 </table>
 
 
@@ -1801,10 +2109,10 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">5</td>
 </tr>
-<tr>    <td rowspan="2">Values seen</td>    <td>50.00%</td><td><code>1</code></td></tr>
-<tr><td>50.00%</td><td><code>2</code></td></tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>60.00%</td><td><code>1</code></td></tr>
+<tr><td>40.00%</td><td><code>2</code></td></tr>
 </table>
 
 
@@ -1815,19 +2123,27 @@ The name of the workout in the Zwift workout menu
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SolidState"><strong><code>SolidState</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="4"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
-<td colspan="2">real</td>
+<td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">3779</td>
+<td colspan="2">13087</td>
 </tr>
-<tr>    <td rowspan="2">Top values seen</td>    <td>9.24%</td><td><code>0.5</code></td></tr>
-<tr><td>5.72%</td><td><code>0.50449997</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>10.41%</td><td><code>0.5</code></td></tr>
+<tr><td>5.16%</td><td><code>0.50449997</code></td></tr>
+<tr><td>4.78%</td><td><code>0.55</code></td></tr>
+<tr><td>3.76%</td><td><code>0.85</code></td></tr>
+<tr><td>3.61%</td><td><code>0.9</code></td></tr>
+<tr><td>3.16%</td><td><code>0.55000001</code></td></tr>
+<tr><td>3.14%</td><td><code>0.8</code></td></tr>
+<tr><td>3.01%</td><td><code>0.65</code></td></tr>
+<tr><td>2.86%</td><td><code>1.1</code></td></tr>
+<tr><td>2.70%</td><td><code>0.75</code></td></tr>
 </table>
 
 
@@ -1847,11 +2163,11 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1403</td>
+<td colspan="2">3881</td>
 </tr>
-<tr>    <td rowspan="3">Top values seen</td>    <td>8.55%</td><td><code>0.65</code></td></tr>
-<tr><td>8.27%</td><td><code>0.75</code></td></tr>
-<tr><td>6.91%</td><td><code>0.75449997</code></td></tr>
+<tr>    <td rowspan="3">Top values seen</td>    <td>9.97%</td><td><code>0.65</code></td></tr>
+<tr><td>8.97%</td><td><code>0.75</code></td></tr>
+<tr><td>5.10%</td><td><code>0.9</code></td></tr>
 </table>
 
 
@@ -1865,18 +2181,17 @@ The name of the workout in the Zwift workout menu
 <td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="6"><strong>Inner value</strong></td>
+<td rowspan="5"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">1403</td>
+<td colspan="2">3879</td>
 </tr>
-<tr>    <td rowspan="4">Top values seen</td>    <td>9.62%</td><td><code>0.5</code></td></tr>
-<tr><td>8.84%</td><td><code>0.75</code></td></tr>
-<tr><td>5.92%</td><td><code>0.75449997</code></td></tr>
-<tr><td>5.20%</td><td><code>0.2545</code></td></tr>
+<tr>    <td rowspan="3">Top values seen</td>    <td>8.79%</td><td><code>0.75</code></td></tr>
+<tr><td>7.24%</td><td><code>0.5</code></td></tr>
+<tr><td>6.39%</td><td><code>0.7</code></td></tr>
 </table>
 
 
@@ -1896,18 +2211,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">63</td>
+<td colspan="2">91</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>26.98%</td><td><code>1.0</code></td></tr>
-<tr><td>19.05%</td><td><code>0.5</code></td></tr>
-<tr><td>14.29%</td><td><code>0.50450003</code></td></tr>
-<tr><td>9.52%</td><td><code>0.97</code></td></tr>
-<tr><td>7.94%</td><td><code>0.87</code></td></tr>
-<tr><td>6.35%</td><td><code>0.75</code></td></tr>
-<tr><td>3.17%</td><td><code>0.6</code></td></tr>
-<tr><td>3.17%</td><td><code>0.61000001</code></td></tr>
-<tr><td>1.59%</td><td><code>0.61</code></td></tr>
-<tr><td>1.59%</td><td><code>0.68000001</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>18.68%</td><td><code>1.0</code></td></tr>
+<tr><td>16.48%</td><td><code>0.50450003</code></td></tr>
+<tr><td>14.29%</td><td><code>0.5</code></td></tr>
+<tr><td>14.29%</td><td><code>0.75</code></td></tr>
+<tr><td>6.59%</td><td><code>0.97</code></td></tr>
+<tr><td>5.49%</td><td><code>0.87</code></td></tr>
+<tr><td>5.49%</td><td><code>0.90449995</code></td></tr>
+<tr><td>4.40%</td><td><code>0.7</code></td></tr>
+<tr><td>3.30%</td><td><code>0.65449995</code></td></tr>
+<tr><td>2.20%</td><td><code>0.61000001</code></td></tr>
 </table>
 
 
@@ -1927,18 +2242,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">63</td>
+<td colspan="2">91</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>26.98%</td><td><code>0.98</code></td></tr>
-<tr><td>22.22%</td><td><code>0.5</code></td></tr>
-<tr><td>14.29%</td><td><code>0.50450003</code></td></tr>
-<tr><td>9.52%</td><td><code>0.93</code></td></tr>
-<tr><td>7.94%</td><td><code>0.84</code></td></tr>
-<tr><td>6.35%</td><td><code>0.7</code></td></tr>
-<tr><td>3.17%</td><td><code>0.61000001</code></td></tr>
-<tr><td>1.59%</td><td><code>0.51</code></td></tr>
-<tr><td>1.59%</td><td><code>0.68000001</code></td></tr>
-<tr><td>1.59%</td><td><code>0.65833384</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>18.68%</td><td><code>0.98</code></td></tr>
+<tr><td>16.48%</td><td><code>0.5</code></td></tr>
+<tr><td>16.48%</td><td><code>0.50450003</code></td></tr>
+<tr><td>14.29%</td><td><code>0.7</code></td></tr>
+<tr><td>6.59%</td><td><code>0.93</code></td></tr>
+<tr><td>5.49%</td><td><code>0.84</code></td></tr>
+<tr><td>5.49%</td><td><code>0.90449995</code></td></tr>
+<tr><td>4.40%</td><td><code>.55</code></td></tr>
+<tr><td>3.30%</td><td><code>0.65449995</code></td></tr>
+<tr><td>2.20%</td><td><code>0.61000001</code></td></tr>
 </table>
 
 
@@ -1952,17 +2267,18 @@ The name of the workout in the Zwift workout menu
 <td colspan="3">&lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="5"><strong>Inner value</strong></td>
+<td rowspan="6"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">integer</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">22</td>
+<td colspan="2">14</td>
 </tr>
-<tr>    <td rowspan="3">Values seen</td>    <td>54.55%</td><td><code>1</code></td></tr>
-<tr><td>31.82%</td><td><code>2</code></td></tr>
-<tr><td>13.64%</td><td><code>3</code></td></tr>
+<tr>    <td rowspan="4">Values seen</td>    <td>28.57%</td><td><code>3</code></td></tr>
+<tr><td>28.57%</td><td><code>2</code></td></tr>
+<tr><td>28.57%</td><td><code>1</code></td></tr>
+<tr><td>14.29%</td><td><code>4</code></td></tr>
 </table>
 
 
@@ -1982,18 +2298,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">63</td>
+<td colspan="2">91</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>22.22%</td><td><code>1.1</code></td></tr>
-<tr><td>9.52%</td><td><code>1.07</code></td></tr>
-<tr><td>7.94%</td><td><code>0.95</code></td></tr>
-<tr><td>7.94%</td><td><code>0.96</code></td></tr>
-<tr><td>7.94%</td><td><code>0.65449995</code></td></tr>
-<tr><td>6.35%</td><td><code>1.75</code></td></tr>
-<tr><td>4.76%</td><td><code>1.25</code></td></tr>
-<tr><td>4.76%</td><td><code>2.0044999</code></td></tr>
-<tr><td>4.76%</td><td><code>1.5</code></td></tr>
-<tr><td>3.17%</td><td><code>0.94999999</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>15.38%</td><td><code>0.95</code></td></tr>
+<tr><td>15.38%</td><td><code>1.1</code></td></tr>
+<tr><td>8.79%</td><td><code>2.0044999</code></td></tr>
+<tr><td>8.79%</td><td><code>1.07</code></td></tr>
+<tr><td>6.59%</td><td><code>1.2045</code></td></tr>
+<tr><td>5.49%</td><td><code>0.96</code></td></tr>
+<tr><td>5.49%</td><td><code>0.65449995</code></td></tr>
+<tr><td>4.40%</td><td><code>1.75</code></td></tr>
+<tr><td>3.30%</td><td><code>1.25</code></td></tr>
+<tr><td>3.30%</td><td><code>1.5</code></td></tr>
 </table>
 
 
@@ -2013,18 +2329,18 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">63</td>
+<td colspan="2">91</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>20.63%</td><td><code>1.07</code></td></tr>
-<tr><td>11.11%</td><td><code>1.5</code></td></tr>
-<tr><td>9.52%</td><td><code>1.04</code></td></tr>
-<tr><td>7.94%</td><td><code>0.94</code></td></tr>
-<tr><td>7.94%</td><td><code>0.65449995</code></td></tr>
-<tr><td>6.35%</td><td><code>0.75</code></td></tr>
-<tr><td>4.76%</td><td><code>1.25</code></td></tr>
-<tr><td>4.76%</td><td><code>2.0044999</code></td></tr>
-<tr><td>3.17%</td><td><code>1.05</code></td></tr>
-<tr><td>3.17%</td><td><code>0.94999999</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>14.29%</td><td><code>1.07</code></td></tr>
+<tr><td>14.29%</td><td><code>0.75</code></td></tr>
+<tr><td>8.79%</td><td><code>2.0044999</code></td></tr>
+<tr><td>7.69%</td><td><code>1.5</code></td></tr>
+<tr><td>6.59%</td><td><code>1.2045</code></td></tr>
+<tr><td>6.59%</td><td><code>1.04</code></td></tr>
+<tr><td>5.49%</td><td><code>0.94</code></td></tr>
+<tr><td>5.49%</td><td><code>0.65449995</code></td></tr>
+<tr><td>3.30%</td><td><code>1.25</code></td></tr>
+<tr><td>3.30%</td><td><code>1.05</code></td></tr>
 </table>
 
 
@@ -2044,13 +2360,13 @@ The name of the workout in the Zwift workout menu
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">22</td>
+<td colspan="2">14</td>
 </tr>
-<tr>    <td rowspan="5">Values seen</td>    <td>31.82%</td><td><code>4</code></td></tr>
-<tr><td>22.73%</td><td><code>6</code></td></tr>
-<tr><td>22.73%</td><td><code>3</code></td></tr>
-<tr><td>18.18%</td><td><code>5</code></td></tr>
-<tr><td>4.55%</td><td><code>2</code></td></tr>
+<tr>    <td rowspan="5">Values seen</td>    <td>50.00%</td><td><code>5</code></td></tr>
+<tr><td>14.29%</td><td><code>4</code></td></tr>
+<tr><td>14.29%</td><td><code>3</code></td></tr>
+<tr><td>14.29%</td><td><code>6</code></td></tr>
+<tr><td>7.14%</td><td><code>2</code></td></tr>
 </table>
 
 
@@ -2074,7 +2390,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">7</td>
+<td colspan="2">8</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>20</code></td></tr>
 </table>
@@ -2087,7 +2403,7 @@ Presumably it refers to the power steps in the interval's ramp.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="3"><strong>Inner value</strong></td>
@@ -2096,7 +2412,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">28</td>
+<td colspan="2">67</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
 </table>
@@ -2118,18 +2434,18 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">501</td>
+<td colspan="2">1687</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>15.97%</td><td><code>4</code></td></tr>
-<tr><td>15.37%</td><td><code>3</code></td></tr>
-<tr><td>14.97%</td><td><code>2</code></td></tr>
-<tr><td>14.57%</td><td><code>5</code></td></tr>
-<tr><td>13.57%</td><td><code>6</code></td></tr>
-<tr><td>7.78%</td><td><code>10</code></td></tr>
-<tr><td>6.79%</td><td><code>1</code></td></tr>
-<tr><td>4.79%</td><td><code>20</code></td></tr>
-<tr><td>2.20%</td><td><code>8</code></td></tr>
-<tr><td>1.80%</td><td><code>12</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>21.52%</td><td><code>1</code></td></tr>
+<tr><td>17.61%</td><td><code>4</code></td></tr>
+<tr><td>15.35%</td><td><code>2</code></td></tr>
+<tr><td>13.63%</td><td><code>3</code></td></tr>
+<tr><td>10.97%</td><td><code>5</code></td></tr>
+<tr><td>7.05%</td><td><code>6</code></td></tr>
+<tr><td>4.74%</td><td><code>10</code></td></tr>
+<tr><td>3.73%</td><td><code>8</code></td></tr>
+<tr><td>1.96%</td><td><code>20</code></td></tr>
+<tr><td>1.42%</td><td><code>7</code></td></tr>
 </table>
 
 
@@ -2140,18 +2456,27 @@ Presumably it refers to the power steps in the interval's ramp.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">184</td>
 </tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>WALK</code></td></tr>
+<tr>    <td rowspan="10">Values seen</td>    <td>33.70%</td><td><code>WALK</code></td></tr>
+<tr><td>20.11%</td><td><code>GO!</code></td></tr>
+<tr><td>15.22%</td><td><code>JOG</code></td></tr>
+<tr><td>11.41%</td><td><code>WARMUP</code></td></tr>
+<tr><td>8.70%</td><td><code>RUN</code></td></tr>
+<tr><td>7.07%</td><td><code>COOLDOWN</code></td></tr>
+<tr><td>1.63%</td><td><code>EASY PACE</code></td></tr>
+<tr><td>1.09%</td><td><code>Cool Down</code></td></tr>
+<tr><td>0.54%</td><td><code>MED PACE</code></td></tr>
+<tr><td>0.54%</td><td><code>FAST PACE</code></td></tr>
 </table>
 
 
@@ -2162,18 +2487,27 @@ Presumably it refers to the power steps in the interval's ramp.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Inner value</strong></td>
+<td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
 <td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">182</td>
 </tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code></code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>60.99%</td><td><code></code></td></tr>
+<tr><td>20.33%</td><td><code>FULL GAS</code></td></tr>
+<tr><td>5.49%</td><td><code>7.5/10</code></td></tr>
+<tr><td>2.20%</td><td><code>6/10</code></td></tr>
+<tr><td>2.20%</td><td><code>7/10</code></td></tr>
+<tr><td>2.20%</td><td><code>8/10</code></td></tr>
+<tr><td>2.20%</td><td><code>9/10</code></td></tr>
+<tr><td>1.10%</td><td><code>Relaxed</code></td></tr>
+<tr><td>1.10%</td><td><code>5/10</code></td></tr>
+<tr><td>1.10%</td><td><code>WALK</code></td></tr>
 </table>
 
 
@@ -2184,7 +2518,7 @@ Presumably it refers to the power steps in the interval's ramp.
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-FreeRide"><strong><code>FreeRide</code></strong></a>&gt; &lt;<a href="#element-Ramp"><strong><code>Ramp</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="3"><strong>Inner value</strong></td>
@@ -2193,31 +2527,9 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">36</td>
+<td colspan="2">113</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>1</code></td></tr>
-</table>
-
-
-### Attribute `Slop="…"`
-
-*Not yet described.*
-
-<table>
-<tr>
-<td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt;</td>
-</tr>
-<tr>
-<td rowspan="3"><strong>Inner value</strong></td>
-<td>Data type</td>
-<td colspan="2">real</td>
-</tr>
-<tr>
-<td>Times seen</td>
-<td colspan="2">22</td>
-</tr>
-<tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>2.5</code></td></tr>
 </table>
 
 
@@ -2241,9 +2553,9 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>    <td rowspan="5">Values seen</td>    <td>37.93%</td><td><code>0.5</code></td></tr>
 <tr><td>31.03%</td><td><code>1.0</code></td></tr>
-<tr><td>10.34%</td><td><code>0.6</code></td></tr>
-<tr><td>10.34%</td><td><code>1.1</code></td></tr>
 <tr><td>10.34%</td><td><code>0.65</code></td></tr>
+<tr><td>10.34%</td><td><code>1.1</code></td></tr>
+<tr><td>10.34%</td><td><code>0.6</code></td></tr>
 </table>
 
 
@@ -2310,7 +2622,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">3</td>
+<td colspan="2">38</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>0.5</code></td></tr>
 </table>
@@ -2383,22 +2695,22 @@ Presumably it refers to the power steps in the interval's ramp.
 <tr>
 <td rowspan="12"><strong>Inner value</strong></td>
 <td>Data type</td>
-<td colspan="2">real</td>
+<td colspan="2">string</td>
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">6442</td>
+<td colspan="2">37648</td>
 </tr>
-<tr>    <td rowspan="10">Top values seen</td>    <td>13.35%</td><td><code>0</code></td></tr>
-<tr><td>5.51%</td><td><code>30</code></td></tr>
+<tr>    <td rowspan="10">Top values seen</td>    <td>15.45%</td><td><code>0</code></td></tr>
+<tr><td>6.09%</td><td><code>10</code></td></tr>
+<tr><td>5.53%</td><td><code>30</code></td></tr>
 <tr><td>5.26%</td><td><code>60</code></td></tr>
-<tr><td>5.05%</td><td><code>10</code></td></tr>
-<tr><td>4.00%</td><td><code>20</code></td></tr>
-<tr><td>2.62%</td><td><code>50</code></td></tr>
-<tr><td>2.39%</td><td><code>120</code></td></tr>
-<tr><td>2.39%</td><td><code>110</code></td></tr>
-<tr><td>2.36%</td><td><code>100</code></td></tr>
-<tr><td>2.20%</td><td><code>150</code></td></tr>
+<tr><td>3.85%</td><td><code>20</code></td></tr>
+<tr><td>3.25%</td><td><code>120</code></td></tr>
+<tr><td>2.89%</td><td><code>90</code></td></tr>
+<tr><td>2.73%</td><td><code>50</code></td></tr>
+<tr><td>2.34%</td><td><code>40</code></td></tr>
+<tr><td>2.20%</td><td><code>100</code></td></tr>
 </table>
 
 
@@ -2418,7 +2730,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">5</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>3</code></td></tr>
 </table>
@@ -2440,7 +2752,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">5</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code> half-marathon!</code></td></tr>
 </table>
@@ -2462,7 +2774,7 @@ Presumably it refers to the power steps in the interval's ramp.
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">5</td>
 </tr>
 <tr>    <td rowspan="1">Values seen</td>    <td>100.00%</td><td><code>You&#x27;re on track to run a </code></td></tr>
 </table>
@@ -2486,10 +2798,10 @@ The type of event to trigger. See
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">2</td>
+<td colspan="2">10</td>
 </tr>
-<tr>    <td rowspan="2">Values seen</td>    <td>50.00%</td><td><code>GPE_CAMERA</code></td></tr>
-<tr><td>50.00%</td><td><code>GPE_CELEBRATION</code></td></tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>60.00%</td><td><code>GPE_CAMERA</code></td></tr>
+<tr><td>40.00%</td><td><code>GPE_CELEBRATION</code></td></tr>
 </table>
 
 
@@ -2500,7 +2812,7 @@ The type of event to trigger. See
 <table>
 <tr>
 <td><strong>Occurs on</strong></td>
-<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
+<td colspan="3">&lt;<a href="#element-Cooldown"><strong><code>Cooldown</code></strong></a>&gt; &lt;<a href="#element-IntervalsT"><strong><code>IntervalsT</code></strong></a>&gt; &lt;<a href="#element-SteadyState"><strong><code>SteadyState</code></strong></a>&gt; &lt;<a href="#element-Warmup"><strong><code>Warmup</code></strong></a>&gt;</td>
 </tr>
 <tr>
 <td rowspan="4"><strong>Inner value</strong></td>
@@ -2509,10 +2821,10 @@ The type of event to trigger. See
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">7</td>
+<td colspan="2">257</td>
 </tr>
-<tr>    <td rowspan="2">Values seen</td>    <td>57.14%</td><td><code>0</code></td></tr>
-<tr><td>42.86%</td><td><code>1</code></td></tr>
+<tr>    <td rowspan="2">Values seen</td>    <td>98.05%</td><td><code>1</code></td></tr>
+<tr><td>1.95%</td><td><code>0</code></td></tr>
 </table>
 
 
@@ -2554,15 +2866,15 @@ The type of event to trigger. See
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">187</td>
+<td colspan="2">234</td>
 </tr>
-<tr>    <td rowspan="7">Values seen</td>    <td>45.99%</td><td><code>270</code></td></tr>
-<tr><td>38.50%</td><td><code>240</code></td></tr>
-<tr><td>8.02%</td><td><code>290</code></td></tr>
-<tr><td>5.88%</td><td><code>500</code></td></tr>
-<tr><td>0.53%</td><td><code>300</code></td></tr>
-<tr><td>0.53%</td><td><code>220</code></td></tr>
-<tr><td>0.53%</td><td><code>260</code></td></tr>
+<tr>    <td rowspan="7">Values seen</td>    <td>46.15%</td><td><code>270</code></td></tr>
+<tr><td>36.75%</td><td><code>240</code></td></tr>
+<tr><td>10.68%</td><td><code>290</code></td></tr>
+<tr><td>4.70%</td><td><code>500</code></td></tr>
+<tr><td>0.85%</td><td><code>300</code></td></tr>
+<tr><td>0.43%</td><td><code>220</code></td></tr>
+<tr><td>0.43%</td><td><code>260</code></td></tr>
 </table>
 
 
@@ -2582,11 +2894,11 @@ The type of event to trigger. See
 </tr>
 <tr>
 <td>Times seen</td>
-<td colspan="2">563</td>
+<td colspan="2">181</td>
 </tr>
-<tr>    <td rowspan="5">Values seen</td>    <td>44.40%</td><td><code>1</code></td></tr>
-<tr><td>33.75%</td><td><code>2</code></td></tr>
-<tr><td>13.14%</td><td><code>3</code></td></tr>
-<tr><td>4.44%</td><td><code>6</code></td></tr>
-<tr><td>4.26%</td><td><code>4</code></td></tr>
+<tr>    <td rowspan="5">Values seen</td>    <td>56.35%</td><td><code>2</code></td></tr>
+<tr><td>24.31%</td><td><code>1</code></td></tr>
+<tr><td>17.68%</td><td><code>3</code></td></tr>
+<tr><td>1.10%</td><td><code>6</code></td></tr>
+<tr><td>0.55%</td><td><code>4</code></td></tr>
 </table>
